@@ -1,0 +1,143 @@
+body {
+  background-color: #d8c6d9;
+  font-family: "sans-serif"; /* or whatever font you used */
+  font-weight: 100; /* 100 is lightest, 900 is boldest */
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100; /* or 400 for regular */
+}
+
+.container {
+  display: flex;
+  width: 60%; /* take almost full page width */
+  max-width: 1200px; /* optional max width */
+  min-height: 600px; /* bigger than current 100vh if you want */
+  margin: 10px auto;
+  background-color: #eee5ef;
+  padding: 10px 10px; /* top/bottom 10px, left/right 20px */
+  gap: 5px; /* smaller gap between left and right */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  align-items: start;
+}
+
+.left-section {
+  display: flex;
+  padding-left: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-section {
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flower-container {
+  margin-top: 20px; /* moves just the flower down */
+  background-color: #eeeeee; /* soft green background */
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  width: 224px; /* 20% smaller */
+  height: 372px; /* 20% smaller */
+  border: 30px solid #b8d9b0; /* darker green border */
+}
+
+#flower {
+  display: block;
+  max-width: 100%; /* image scales down to fit container width */
+  max-height: 100%; /* image scales down to fit container height */
+  width: auto; /* maintain aspect ratio */
+  height: auto; /* maintain aspect ratio */
+  image-rendering: pixelated;
+}
+
+h1 {
+  grid-column: 1 / 3; /* span both grid columns */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.timer-display {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: center; /* center buttons horizontally */
+  gap: 10px; /* space between buttons */
+}
+
+.control-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls button {
+  background-color: #b8d9b0; /* pastel pink button */
+  border: none;
+  width: 48px;
+  height: 48px;
+  padding: 0px;
+  margin: 5px;
+  box-shadow: 0 4px 8px rgba(24, 64, 34, 0.322); /* shadow */
+
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.controls img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.time-buttons button {
+  display: block;
+  width: 200px;
+  margin: 35px auto;
+  margin-top: 10px; /* in a previous snippet */
+  padding: 12px 0;
+  background-color: #b8d9b0;
+  border: none;
+  box-shadow: 0 4px 8px rgba(24, 64, 34, 0.322); /* shadow */
+  font-size: 18px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.controls button:hover {
+  background-color: #c0e0b5; /* slightly lighter pink */
+  transition: background-color 0.2s ease; /* smooth transition */
+}
+
+.time-buttons button:hover {
+  background-color: #c0e0b5; /* slightly lighter green */
+  transition: background-color 0.2s ease;
+}
+
+.time-buttons h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.timer-display {
+  margin: -10px 0 20px 0; /* move up by 15px, keep bottom margin for buttons */
+}
