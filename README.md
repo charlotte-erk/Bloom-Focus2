@@ -25,13 +25,26 @@ A simple, interactive focus timer inspired by the Pomodoro technique. Watch a fl
 - JavaScript
 - Audio assets for timer completion
 - Images for flower stages
+- Mockup in Figma
 
 ## Future Improvements
 
 - Allow fully custom time input (hours and minutes).  
 - Add multiple flower themes or animations.  
 - Mobile-friendly responsive design enhancements.
-- Light/Dark mode options
+- Light/Dark mode option
+
+## Figma Mockup
+
+You can view the UI/UX design for this project here:
+
+<iframe
+  style="border: 1px solid rgba(0, 0, 0, 0.1);"
+  width="800"
+  height="450"
+  src="https://www.figma.com/embed?embed_host=github&url=YOUR_FIGMA_LINK_HERE">
+</iframe>
+
 
 ## Author
 
