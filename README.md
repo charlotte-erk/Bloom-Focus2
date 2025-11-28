@@ -38,12 +38,7 @@ A simple, interactive focus timer inspired by the Pomodoro technique. Watch a fl
 
 You can view the UI/UX design for this project here:
 
-[<iframe
-  style="border: 1px solid rgba(0, 0, 0, 0.1);"
-  width="800"
-  height="450"
-  src="https://www.figma.com/embed?embed_host=github&url=YOUR_FIGMA_LINK_HERE">
-</iframe>](https://www.figma.com/site/8IJFc9qxrxZokqujNkz6Ei/Bloom-Focus-Timer?node-id=0-1&t=7RjsduOqMEQn1bvz-1)
+👉 **https://www.figma.com/site/8IJFc9qxrxZokqujNkz6Ei/Bloom-Focus-Timer?node-id=0-1&t=7RjsduOqMEQn1bvz-1**
 
 
 ## Author
